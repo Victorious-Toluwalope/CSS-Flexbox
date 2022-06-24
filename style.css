@@ -1,8 +1,3 @@
-/* @media only screen and (max-width: 375px) {
-      body {
-        width: 100%;
-      }
-    } */
     
 main{
       /* margin: auto; */
@@ -84,3 +79,13 @@ a{
 .box1 a:hover, .box2 a:hover, .box3 a:hover{
       color:  hsl(0, 0%, 95%);
 }
+
+@media only screen and (max-width: 600px) {
+      body {
+        width: 100%;
+      }
+      main{
+            display: block;
+            margin: 30px;
+      }
+    }
